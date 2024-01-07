@@ -1,0 +1,35 @@
+/* Branding */
+
+@import url('../public/font/byp.css');
+
+:root {
+  --orange-great: rgba(243,66,19,1);
+  --papaya-whip: rgba(255, 239, 214,1);
+  --grey-notcool: rgba(59, 60, 54,1);
+ 
+  --font-size-H: 2rem;
+  --font-size-SH: 1.4em; 
+  --font-size: 1rem;
+  --site-width: 1600px;
+  --radius: 6px;
+  --line-height: 1.7;
+  --separation: 15px;
+  --section-separation: 1vw;
+  --border-width: 1px;
+  --input-text-weight: 600;
+  --button-text-transform: lowercase;
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+::selection {
+  background-color: var(--orange-great);
+  color: black;
+}
+
+::-moz-selection {
+  background-color: var(--orange-great);
+  color: black;
+}
+
+/* END OF BRANDING */
