@@ -3,12 +3,17 @@
 @import url('../public/font/byp.css');
 
 :root {
-  --orange-great: rgba(243,66,19,1);
-  --papaya-whip: rgba(255, 239, 214,1);
-  --grey-notcool: rgba(59, 60, 54,1);
- 
-  --font-size-H: 2rem;
-  --font-size-SH: 1.4em; 
+  --jonquil: rgba(249,200,14,1);      /*acent 2*/
+  --white-smoke: rgba(255,255,255,1); /* BackGround*/
+  --Eerie-Black: rgba(35,35,35,1);    /* Main font and grid*/
+  --coquelicot: rgba(243,66,19,0.8);  /*acent 1*/
+  --font-family: 'BebasNeue-Regular';
+  --font-family-2: 'Ubuntu-Bold';
+  --font-family-3: 'talldark';
+  --font-family-4: 'Subwich';
+  --font-size-MH: 7vw;
+  --font-size-H: 5rem;
+  --font-size-SH: 3rem; 
   --font-size: 1rem;
   --site-width: 1600px;
   --radius: 6px;
@@ -33,3 +38,21 @@
 }
 
 /* END OF BRANDING */
+
+body {
+  margin: 0;
+  padding: 2%;
+  font-size:  var(--font-size);
+  line-height: var(--line-height);
+  color: var(--Eerie-Black);
+  letter-spacing: 1px;
+  background-color:var(--white-smoke);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-family: var(--font-family-4);
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
