@@ -11,6 +11,9 @@
   --font-family-2: 'Ubuntu-Bold';
   --font-family-3: 'talldark';
   --font-family-4: 'Subwich';
+  --font-family-5: 'taller';
+  --font-family-6: 'TALLBOY';
+  --font-size-HH: 25vh;
   --font-size-MH: 7vw;
   --font-size-H: 5rem;
   --font-size-SH: 3rem; 
@@ -56,3 +59,4 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+

@@ -1,14 +1,14 @@
 .menu{
 height: 50px;
 border-bottom: 1px solid var(--Eerie-Black);
-font-family: var(--font-family-2);
+font-family: var(--font-family);
 color: var(--Eerie-Black);
 
 }
 
 .menu h1 {
-  color: var(--Eerie-Black);
-  margin: 0;
+color: var(--Eerie-Black);
+margin: 0;
 padding: 0;
   
 }
@@ -29,14 +29,19 @@ padding: 0;
 }
 
 .gate{
-  height: 600px;
-  font-size: var(--font-size-H);
+ 
+  font-size: var(--font-size-MH);
+  font-family: var(--font-family);
   display:flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  
 
 }
+
 
 .gate h2{
   margin: 0;
@@ -44,16 +49,22 @@ padding: 0;
   
 }
 
+.gate img{
+  width: 100px;
+}
+
 .SmallFont{
  font-family: var(--font-family-3);
- font-size: var(--font-size-H);
+ font-size: var(--font-size-MH);
  background-color: var(--coquelicot);
+ 
 
 }
 .LargeFont{
-font-family: var(--font-family);
+font-family: var(--font-family-3);
  font-size: var(--font-size-MH);
  background-color: var(--jonquil);
+ border-radius: 50%;
 }
 
 .headerNewsContainer {
@@ -102,24 +113,32 @@ font-family: var(--font-family);
 
 .SubHeader{
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   font-size: var(--font-size-SH);
   background-color: var(--Eerie-Black);
   border: 1px solid  var(--Eerie-Black);
   border-bottom: none;
-
+  height: 600px;
   color: var(--white-smoke);
+ 
 
 }
 
 .SubHeader h1{
-  color: var(--white-smoke);
+  
   margin: 0;
-  padding: 0;
-  font-size: var(--font-size-H);
+  padding: 1%;
+  
+  color: var(--white-smoke);
+  font-size: var(--font-size-MH);
   font-family: var(--font-family-3);
-  text-align: center;
+ 
 
+}
+.centerText{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .SubHeader h3{
@@ -131,17 +150,14 @@ font-family: var(--font-family);
 
 .containerinfo{
   display: grid;
-  grid-template-columns: 1fr 1fr   1fr;
+  grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr 1fr ;
   padding: 2px;
 }
 
 .info {
-  
   display: block;
-
-
-  font-size: var(--font-size-H);
+ 
   border: 2px solid var(--Eerie-Black);
  background-color: var(--white-smoke);
  border-radius: 5%;
@@ -149,15 +165,18 @@ font-family: var(--font-family);
  
  
 }
+.info p{
+  font-size: var(--font-size);
+  color: var(--Eerie-Black);
+  padding-left: 1%;
+}
 
 .info h3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
   margin: 0;
-  padding: 0;
+  padding: 1%;
   color: var(--Eerie-Black);
-  font-family: var(--font-family-3);
+  font-family: var(--font-family);
   font-size: var(--font-size-SH);
 }
 
@@ -167,8 +186,10 @@ font-family: var(--font-family);
 }
 
 .info img{
-width: 50px;
-  
+width: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .info:hover {
@@ -176,10 +197,11 @@ width: 50px;
   border-width: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
+  
 }
 
 .ContainerExitos{
-padding-top: 2%;
+
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 
@@ -242,12 +264,71 @@ list-style-type: none;
   font-size: var(--font-size);
   justify-content: center;
   align-items: center;
+  background-color: var(--coquelicot);
+  border: 1px solid var(--white-smoke);
+  border-radius: 100%;
 }
 .etiquetas h1{
   font-size: var(--font-size-MH);
 }
 
+.titles{
+font-family: var(--font-family);
+font-size: var(--font-size-MH);
+color: var(--Eerie-Black);
+margin: 0;
+padding: 0;
 
+}
+
+.titles h2{
+  margin: 0;
+  margin-bottom: -15px;
+  padding: 0;
+}
+
+.titleRed{
+  background-color: var(--coquelicot);
+  margin: 0;
+}
+
+
+.sectionAbout{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: var(--jonquil);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionAbout img{
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end ;
+  margin-left: 1%;
+}
+.sectionAbout p{
+  width: 30%;
+}
+
+.buttons1{
+  background-color: none;
+  font-family: var(--font-family-6);
+  font-size: var(--font-size-H);
+  color: var(--Eerie-Black);
+  text-align: center;
+}
+
+.tecno{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.tecno img{
+  width: 25%;
+  opacity: 85%;
+}
 
 
 

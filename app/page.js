@@ -40,12 +40,14 @@ export default function Home() {
   */}
       <div className={styles.gate}>
         <h2>
-           "We 
-        <span className={styles.SmallFont}> Build &#8594; </span> websites
+           "We <span className={styles.SmallFont}> Build &#8594; </span> websites
+       
         <span className={styles.LargeFont}> for you &#x2661; </span>"
-        </h2>   
+      
+        </h2> 
+       
       </div>
-
+      
     
      
 {/*
@@ -70,44 +72,94 @@ export default function Home() {
         </div>
       </div>
   */}    
+ 
 
      
 <div className={styles.SubHeader}>
-  <div>
-      <h1> You don't  have to <br/>
-      <span className={styles.SmallFont} > waisting time </span><br/> 
-        we can build it for you  <span className={styles.SmallFont}> &#x2661;</span>
-       </h1>
+  <div className={styles.centerText}> 
+      <h1> 
+         Don't waste <br/>
+        any more time, <br/> 
+        let's get it built! <span className={styles.SmallFont}> &#x2661;</span>
+      </h1>
   </div>
   
       <div className={styles.containerinfo} >
           <div className={styles.info}>
             <h3 >  Landing Page</h3>
+            <p>One-way street to conversions: Focused page captures leads with targeted action.</p>
+            <img src="/right-arrow.png" alt="test"></img>
           </div>
           <div className={styles.info}>
           <h3> Websites</h3>
-          <img src="/right-arrow.png" alt="test"></img>
-          </div>
-          <div className={styles.info}>
-          <h3>Social media</h3>
+          <p>Digital hub: interlinked pages on a domain, sharing info & goals..</p>
           <img src="/right-arrow.png" alt="test"></img>
           </div>
           <div className={styles.info}>
           <h3>Ecommerce</h3>
-          <img src="/right-arrow.png" alt="test"></img>
-          </div>
-          
-          <div className={styles.info}>
-          <h3>Social Link</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <img src="/right-arrow.png" alt="test"></img>
           </div>
           <div className={styles.info}>
+          <h3>Social media</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <img src="/right-arrow.png" alt="test"></img>
           </div>
-          
-
-
       </div>
+</div>
+
+<div className={styles.titles}>
+  <h2>About <span className={styles.titleRed}>AO.CO </span> </h2>
+</div>
+<div className={styles.sectionAbout}>
+  <div>
+    <p>
+      "For over 3 years, we've been helping businesses of all sizes unlock their
+    online potential. Our team of seasoned professionals brings a wealth of
+    experience and expertise to the table, backed by a data-driven approach 
+    that delivers measurable results. We're not just about making websites 
+    pretty, we're about making them work for you."
+    </p>
+    <button className={styles.buttons1}> Contact Us</button>
+  </div>
+  
+    <img src="/test.jpg" alt="test"></img>
+  
+</div>
+
+<div className={styles.titles}>
+  <h2>offer </h2>
+</div>
+<div className={styles.tecno}>
+<img src="/wordpress.png" alt="test"></img>
+<img src="/wix.png" alt="test"></img>
+<img src="/wordpress.png" alt="test"></img>
+<img src="/wix.png" alt="test"></img>
+<img src="/wordpress.png" alt="test"></img>
+<img src="/wix.png" alt="test"></img>
+<img src="/wordpress.png" alt="test"></img>
+<img src="/wix.png" alt="test"></img>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div className={styles.titles}>
+<h2>Services</h2>
 </div>
 
 <div className={styles.etiquetas}>
@@ -115,16 +167,18 @@ export default function Home() {
     We offer several <br/>
     services for you 
 </h1>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nisi turpis, 
-  posuere nec mi et, consequat rutrum metus. Phasellus ut nibh massa. Aenean arcu risus, 
-  condimentum quis mattis at, auctor eget justo. 
+<p> Struggling to navigate the online world? Whether you're a small business 
+  just starting out, a medium-sized company looking to expand, or a large 
+  organization seeking to optimize your digital presence, AO.CO has 
+  the perfect solution for you. We offer three comprehensive
+   plans: Starter, Growth, and Enterprise
   </p>
 
 </div>
 
 <div className={styles.ContainerExitos}>
   <div className={styles.Exitos}  >
-    <h1>Small plan</h1>
+    <h1>Starter Plan</h1>
     <h2 > $20/month</h2>
     <ul>
       <li>landing page</li>
@@ -137,7 +191,7 @@ export default function Home() {
     <a href='' className={styles.buyButtom}> More info </a>
   </div>
   <div className={styles.Exitos}  >
-    <h1>midium plan</h1>
+    <h1>Growth Plan</h1>
     <h2 > $20/month</h2>
     <ul>
       <li>website</li>
@@ -151,7 +205,7 @@ export default function Home() {
     <a href='' className={styles.buyButtom}> More info </a>
   </div>
   <div className={styles.Exitos}  >
-    <h1>large plan</h1>
+    <h1>Enterprise Plan</h1>
     <h2 > $20/month</h2>
     <ul>
       <li>website</li>
@@ -162,10 +216,9 @@ export default function Home() {
     </ul>
     <a href='' className={styles.buyButtom}> More info </a>
   </div>
-
-
-  
 </div>
+
+
 
       
     </main>
