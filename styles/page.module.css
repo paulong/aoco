@@ -310,7 +310,14 @@ padding: 0;
   margin-left: 1%;
 }
 .sectionAbout p{
-  width: 30%;
+  width: 65%;
+}
+.sectionAboutItem{
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  justify-items: right;
 }
 
 .buttons1{
@@ -321,19 +328,84 @@ padding: 0;
   text-align: center;
 }
 
+.buttons1:hover{
+  background-color: var(--coquelicot);
+  color: var(--white-smoke);
+}
+
+
+
 .tecno{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
 }
 .tecno img{
-  width: 25%;
-  opacity: 85%;
+  width: 15%;
+  opacity: 80%;
 }
 
 
+.process{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1%;
+}
+
+.processItem{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: var(--Eerie-Black);
+  border-radius: 20px;
+  color: var(--white-smoke);
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+
+}
+
+.processItem h1{
+  font-family: var(--font-family);
+  font-size: var(--font-size-H);
+  color: var(--jonquil);
+
+}
+
+.processItem p{
+  font-size: var(--font-family);
+  
+}
+
+.portfolio{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  1fr ;
+  gap: 5px;
+ 
+}
+
+.portfolioIntem{
+   height: 600px;
+  padding: 1px;
+}
+.portfolioIntem h1{
+  font-size: var(--font-size-H);
+  margin: 0;
+  padding:0;
+
+}
+.portfolioIntem h3{
+  font-family:var(--font-family-2);
+font-size: calc(var(--font-size)* 1.5);
+  margin: 0;
+  padding:0;
+}
 
 
-
+.portfolioIntem img{
+  width: 100%;
+  height: 60%;
+}
 
 
 

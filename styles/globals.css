@@ -48,7 +48,7 @@ body {
   font-size:  var(--font-size);
   line-height: var(--line-height);
   color: var(--Eerie-Black);
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   background-color:var(--white-smoke);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -59,4 +59,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+
 

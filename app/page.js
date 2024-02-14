@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/page.module.css'
 import Head from 'next/head'
+import Footer from './footer'
 
 export default function Home() {
   return (
@@ -43,7 +44,7 @@ export default function Home() {
            "We <span className={styles.SmallFont}> Build &#8594; </span> websites
        
         <span className={styles.LargeFont}> for you &#x2661; </span>"
-      
+        
         </h2> 
        
       </div>
@@ -112,7 +113,7 @@ export default function Home() {
   <h2>About <span className={styles.titleRed}>AO.CO </span> </h2>
 </div>
 <div className={styles.sectionAbout}>
-  <div>
+  <div className={styles.sectionAboutItem}>
     <p>
       "For over 3 years, we've been helping businesses of all sizes unlock their
     online potential. Our team of seasoned professionals brings a wealth of
@@ -123,57 +124,88 @@ export default function Home() {
     <button className={styles.buttons1}> Contact Us</button>
   </div>
   
-    <img src="/test.jpg" alt="test"></img>
+    <img src="/paulo.png" alt="test"></img>
   
 </div>
+
+<div className={styles.titles}>
+  <h2> How we work</h2>
+</div>
+<div className={styles.process}>
+
+  <div className={styles.processItem}>
+    <h1>01</h1>
+    <p>
+      We're not just about making websites 
+      pretty, we're about making them work for you."
+    </p>
+  </div>
+
+  <div className={styles.processItem}>
+     <h1>02</h1>
+     <p>
+      We're not just about making websites 
+      pretty, we're about making them work for you."
+    </p>
+  </div>
+
+  <div className={styles.processItem}> 
+  <h1>03</h1>
+  <p>
+    We're not just about making websites 
+    pretty, we're about making them work for you."
+    </p>
+  </div>
+
+  <div className={styles.processItem}> 
+    <h1>04</h1>
+    <p>
+      We're not just about making websites 
+      pretty, we're about making them work for you."
+    </p>
+  </div>
+
+
+</div>
+
+
+
+
 
 <div className={styles.titles}>
   <h2>offer </h2>
 </div>
 <div className={styles.tecno}>
-<img src="/wordpress.png" alt="test"></img>
-<img src="/wix.png" alt="test"></img>
-<img src="/wordpress.png" alt="test"></img>
-<img src="/wix.png" alt="test"></img>
-<img src="/wordpress.png" alt="test"></img>
-<img src="/wix.png" alt="test"></img>
-<img src="/wordpress.png" alt="test"></img>
-<img src="/wix.png" alt="test"></img>
+  <img src="/wordpress.png" alt="test"></img>
+  <img src="/wix.png" alt="test"></img>
+  <img src="/vercel.svg" alt="test"></img>
+  <img src="/mail.png" alt="test"></img>
+  <img src="/next.svg" alt="test"></img>
+  <img src="/wix.png" alt="test"></img>
+  <img src="/link.png" alt="test"></img>
+  <img src="/home.png" alt="test"></img>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 <div className={styles.titles}>
-<h2>Services</h2>
+  <h2>Services</h2>
 </div>
 
 <div className={styles.etiquetas}>
   <h1>
-    We offer several <br/>
+    We offer several 
+    <br/>
     services for you 
-</h1>
-<p> Struggling to navigate the online world? Whether you're a small business 
-  just starting out, a medium-sized company looking to expand, or a large 
-  organization seeking to optimize your digital presence, AO.CO has 
-  the perfect solution for you. We offer three comprehensive
-   plans: Starter, Growth, and Enterprise
+  </h1>
+  <p> 
+    Struggling to navigate the online world? Whether you're a small business 
+    just starting out, a medium-sized company looking to expand, or a large 
+    organization seeking to optimize your digital presence, AO.CO has 
+    the perfect solution for you. We offer three comprehensive
+    plans: Starter, Growth, and Enterprise
   </p>
-
 </div>
 
 <div className={styles.ContainerExitos}>
@@ -186,10 +218,10 @@ export default function Home() {
       <li>website</li>
       <li>social media links</li>
       <li>Contact form</li> 
-      
     </ul>
     <a href='' className={styles.buyButtom}> More info </a>
   </div>
+
   <div className={styles.Exitos}  >
     <h1>Growth Plan</h1>
     <h2 > $20/month</h2>
@@ -199,11 +231,10 @@ export default function Home() {
       <li>Contact form</li>
       <li>website</li>
       <li>social media links</li>
-     
-     
     </ul>
     <a href='' className={styles.buyButtom}> More info </a>
   </div>
+
   <div className={styles.Exitos}  >
     <h1>Enterprise Plan</h1>
     <h2 > $20/month</h2>
@@ -219,8 +250,43 @@ export default function Home() {
 </div>
 
 
+<div className={styles.titles}>
+  <h2>Selected projects </h2>
+</div>
 
-      
+<div className={styles.portfolio}>
+  <div className={styles.portfolioIntem}>
+    <h3> AO.CO</h3>
+    <img src="/test.jpg" alt="test"></img>
+    <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
+    <a href=''> See the websites</a>
+  </div>
+
+  <div className={styles.portfolioIntem}>
+    <h3> Moshka Architecture</h3>
+    <img src="/test.jpg" alt="test"></img> 
+    <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
+    <a href=''> See the websites</a>
+  </div>
+
+  <div className={styles.portfolioIntem}>
+    <h3> Most wanted Store</h3>
+    <img src="/test.jpg" alt="test"></img>
+    <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
+    <a href=''> See the websites</a>
+  </div>
+
+  <div className={styles.portfolioIntem}>
+    <h3> Not Yet</h3>
+    <img src="/test.jpg" alt="test"></img>
+    <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
+    <a href=''> See the websites</a>
+  </div>
+
+</div>
+
+
+    <Footer /> 
     </main>
     </>
   )
