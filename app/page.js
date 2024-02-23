@@ -3,6 +3,7 @@ import styles from '../styles/page.module.css'
 import Head from 'next/head'
 import Footer from './footer'
 
+
 export default function Home() {
   return (
    <>
@@ -41,7 +42,7 @@ export default function Home() {
   */}
       <div className={styles.gate}>
         <h2>
-           "We <span className={styles.SmallFont}> Build &#8594; </span> websites
+           "We <span className={styles.SmallFont}> Build &#8594; </span>  websites
        
         <span className={styles.LargeFont}> for you &#x2661; </span>"
         
@@ -121,11 +122,9 @@ export default function Home() {
     that delivers measurable results. We're not just about making websites 
     pretty, we're about making them work for you."
     </p>
-    <button className={styles.buttons1}> Contact Us</button>
+    <button className={styles.buttons1} href="form"> Contact Us</button>
   </div>
-  
     <img src="/paulo.png" alt="test"></img>
-  
 </div>
 
 <div className={styles.titles}>
@@ -165,25 +164,21 @@ export default function Home() {
     </p>
   </div>
 
-
 </div>
 
 
 
+{/*  brand tha we use */}
 
 
-<div className={styles.titles}>
-  <h2>offer </h2>
-</div>
 <div className={styles.tecno}>
   <img src="/wordpress.png" alt="test"></img>
   <img src="/wix.png" alt="test"></img>
-  <img src="/vercel.svg" alt="test"></img>
+  <img src="/elementor.png" alt="test"></img>
+  <img src="/html5.png" alt="test"></img>
+  <img src="/php.png" alt="test"></img>
   <img src="/mail.png" alt="test"></img>
-  <img src="/next.svg" alt="test"></img>
-  <img src="/wix.png" alt="test"></img>
-  <img src="/link.png" alt="test"></img>
-  <img src="/home.png" alt="test"></img>
+  
 
 </div>
 
@@ -263,25 +258,71 @@ export default function Home() {
   </div>
 
   <div className={styles.portfolioIntem}>
-    <h3> Moshka Architecture</h3>
+    <h3> Snug Land</h3>
     <img src="/test.jpg" alt="test"></img> 
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
-    <h3> Most wanted Store</h3>
+    <h3> Coming soon</h3>
     <img src="/test.jpg" alt="test"></img>
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
-    <h3> Not Yet</h3>
+    <h3>Coming soon</h3>
     <img src="/test.jpg" alt="test"></img>
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
+
+</div>
+
+<div className={styles.titles}>
+  <h2>Contact us </h2>
+</div>
+<div className={styles.contact}>
+
+  <div className={styles.contactItem}>
+    <h1>Let's get <br/>
+    started.</h1>
+  </div>
+  
+  <div className={styles.contactItem} id="  form">
+      
+        <label className={styles.contactLabel}> Hello, my name is </label>
+        <input
+          name="name" 
+          defaultValue="awsome"
+        />
+       
+        <label className={styles.contactLabel}> and I have a   </label> 
+        <input
+          name="company" 
+          maxLength="100"
+          defaultValue="the greates company ever"
+        /> 
+          
+        <label className={styles.contactLabel}>   that need help. you can reach me at </label>
+        <input  
+          name="email"
+          defaultValue="youremail@example.com"
+        /> 
+        .
+        <br/>
+        <label className={styles.contactLabel}>  I would like to know more about    </label>
+        <input  
+          name="email"
+          
+        /> 
+ <br></br>
+<button className={styles.buttons1}> Send info  &#8594;</button>
+      
+
+  </div>
+  
 
 </div>
 

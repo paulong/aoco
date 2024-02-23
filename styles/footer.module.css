@@ -6,7 +6,7 @@ padding-top: 1%;
 .footer{
    
     background-color: var(--jonquil);
-    height: 300px;
+
 }
 
 .footer h1{
@@ -19,5 +19,17 @@ padding-top: 1%;
 .footerInfo{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
     
+}
+.footerInfoIntem h3{
+    font-size: var(--font-size);
+    margin: 0;
+}
+
+.footerInfoIntem li{
+    list-style : none;
 }
