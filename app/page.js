@@ -36,18 +36,15 @@ export default function Home() {
         <h1> By ao.co</h1>
       </div>
       {/*
-      <div className={styles.Hero}>
+        <div className={styles.Hero}>
           <h1> AO.CO</h1>
-      </div> 
-  */}
+        </div> 
+      */}
       <div className={styles.gate}>
         <h2>
            "We <span className={styles.SmallFont}> Build &#8594; </span>  websites
-       
-        <span className={styles.LargeFont}> for you &#x2661; </span>"
-        
+          <span className={styles.LargeFont}> for you &#x2661; </span>"
         </h2> 
-       
       </div>
       
     
@@ -92,28 +89,24 @@ export default function Home() {
             <h3 >  Landing Page</h3>
             <p>It's like a love letter to your product, but with a "buy now"
                button instead of a red rose (and hopefully less cheesy).</p>
-            <img src="/right-arrow.png" alt="test"></img>
           </div>
 
           <div className={styles.info}>
             <h3> Websites</h3>
             <p>It's your online billboard, except instead of flashing lights and 
             cheesy slogans, you have engaging content and clear calls to action.</p>
-            <img src="/right-arrow.png" alt="test"></img>
           </div>
 
           <div className={styles.info}>
             <h3>Ecommerce</h3>
             <p>It's your online billboard, except instead of flashing lights and 
               cheesy slogans, you have engaging content and clear calls to action.</p>
-            <img src="/right-arrow.png" alt="test"></img>
           </div>
 
           <div className={styles.info}>
             <h3>Social media</h3>
             <p>Remember that awkward moment when you explain your Linktree to your grandma? 
               This is so simple, even she'll understand (and maybe even share your stuff!)</p>
-            <img src="/right-arrow.png" alt="test"></img>
           </div>
 
       </div>
@@ -126,10 +119,10 @@ export default function Home() {
   <div className={styles.sectionAboutItem}>
     <p>
       "For over 3 years, we've been helping businesses of all sizes unlock their
-    online potential. Our team of seasoned professionals brings a wealth of
-    experience and expertise to the table, backed by a data-driven approach 
-    that delivers measurable results. We're not just about making websites 
-    pretty, we're about making them work for you."
+      online potential. Our team of seasoned professionals brings a wealth of
+      experience and expertise to the table, backed by a data-driven approach 
+      that delivers measurable results. We're not just about making websites 
+      pretty, we're about making them work for you."
     </p>
     <button className={styles.buttons1} href="form"> Contact Us &#8594;</button>
   </div>
@@ -145,10 +138,9 @@ export default function Home() {
 
   <div className={styles.processItem}>
     <h1>01</h1>
-   
     <p>
       <span className={styles.infoHighlight}>Choosing the Perfect Tool:</span>  <br/>
-        Whether it's a sizzling, we'll work together to find the technology that best fits your needs and goals.
+      Whether it's a sizzling, we'll work together to find the technology that best fits your needs and goals.
     </p>
   </div>
 
@@ -163,8 +155,8 @@ export default function Home() {
   <div className={styles.processItem}> 
   <h1>03</h1>
   <p>
-  <span className={styles.infoHighlight}>Free Revisions: Your Satisfaction Matters: </span>  <br/>
-  We don't believe in one-size-fits-all solutions. That's why we offer free revisions. We want you to be 100% thrilled with the final product.
+  <span className={styles.infoHighlight}> Your Satisfaction Matters: </span>  <br/>
+  We don't believe in one-size-fits-all solutions. That's why we offer free revisions.
     </p>
   </div>
 
@@ -172,7 +164,7 @@ export default function Home() {
     <h1>04</h1>
     <p>
     <span className={styles.infoHighlight}> Launch & Beyond: </span>  <br/>
-    The moment you've been waiting for! Your project goes live, ready to shine and conquer the world (or at least your target audience).
+    The moment you've been waiting for! Your project goes live, ready to shine and conquer the world.
     </p>
   </div>
 
@@ -290,14 +282,7 @@ export default function Home() {
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
-
-  <div className={styles.portfolioIntem}>
-    <h3>Coming soon</h3>
-    <img src="/test.jpg" alt="test"></img>
-    <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
-    <a href=''> See the websites</a>
-  </div>
-
+ 
 </div>
 
 <div className={styles.titles}>
