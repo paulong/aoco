@@ -525,8 +525,7 @@ margin: 5%;
 
 
   .sectionAbout{
-    height: fit-content;
-    grid-template-columns: 1fr 1fr;
+   display: block;
   
     }
   .sectionAbout img{
@@ -535,17 +534,16 @@ margin: 5%;
   }
 
   .sectionAbout p {
-    font-size: calc( var(--font-size) *1.2);
+    font-size: calc( var(--font-size) *2);
   }
+
+
   
-  .containerinfo{
-    display: block;
-    border-radius: 150px;
-  }
+  
 
   .info{
     border-radius: 20px;
-    height: 100px;
+    height: 200px;
   }
 
   .info h3{
@@ -553,8 +551,16 @@ margin: 5%;
   }
 
   .info p{
-    font-size:calc( var(--font-size) * 1.5) ;
+    font-size:calc( var(--font-size) * 2) ;
   }
+
+  .etiquetas{
+    display: block;
+  }
+
+ .etiquetas{
+  font-size: calc( var(--font-size) *2);
+ }
 
   .process{
     display: block;
@@ -578,7 +584,12 @@ margin: 5%;
 
   .tecno img{
 
-    height: 45%;
+    height: 38%;
     width: 45%;
+  }
+
+  .Exitos h1{
+    font-size: calc( var(--font-size-H));
+
   }
 }
