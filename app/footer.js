@@ -5,26 +5,27 @@ export default function Footer() {
      <div className={styles.footerdiv}> 
         <div className={styles.footer}>
            
-        
+
         <div className={styles.footerInfo}>
             <div className={styles.footerInfoIntem}>
                 <h1>AO.CO</h1>
-                <h3>Click here to subcrite to our newslatter</h3>
+              
+             
             </div>
             <div className={styles.footerInfoIntem}>
                 <ul>
                     <li> Subscribe to our newslatter</li>
                     <li>Blog</li>
-                    <li> FQs</li>
-                    <li>Contact Us</li>
+                    <li> Tiktok</li>
+                    <li>Instagram</li>
                 </ul>
             </div>
             <div className={styles.footerInfoIntem}>
                 <ul>
-                    <li> Subscribe to our newslatter</li>
-                    <li>Blog</li>
-                    <li> FQs</li>
-                    <li>Contact Us</li>
+                    <li> Arround the globe</li>
+                    <li> We have a Blog</li>
+                    <li> @2024 AOCO</li>
+                    <li>Developed by AO.CO</li>
                 </ul>
             </div>
         </div>

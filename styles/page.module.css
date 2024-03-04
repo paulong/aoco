@@ -80,7 +80,7 @@ font-family: var(--font-family-3);
   border-top: 1px solid var( --Eerie-Black);
   border-bottom: 1px solid var( --Eerie-Black);
   border-right: 1px solid var( --Eerie-Black);
- display: grid;
+  display: grid;
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -118,9 +118,8 @@ font-family: var(--font-family-3);
   background-color: var(--Eerie-Black);
   border: 1px solid  var(--Eerie-Black);
   border-bottom: none;
-  height: 600px;
   color: var(--white-smoke);
- 
+  margin-bottom: 15%;
 
 }
 
@@ -157,13 +156,10 @@ font-family: var(--font-family-3);
 
 .info {
   display: block;
- 
   border: 2px solid var(--Eerie-Black);
  background-color: var(--white-smoke);
  border-radius: 5%;
- 
- 
- 
+ padding: 1%;
 }
 .info p{
   font-size: var(--font-size);
@@ -187,7 +183,7 @@ font-family: var(--font-family-3);
 
 .info img{
 width: 30px;
- display: flex;
+ display: grid;
  justify-content: center;
  align-items: center;
 }
@@ -200,10 +196,16 @@ width: 30px;
   
 }
 
+.infoHighlight{
+  border-bottom: 2px dotted var(--coquelicot);
+  font-family: var(--font-family-4);
+}
+
 .ContainerExitos{
 
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
+margin-bottom: 15%;
 
 }
 
@@ -300,6 +302,7 @@ padding: 0;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 15%;
 }
 
 .sectionAbout img{
@@ -342,10 +345,11 @@ padding: 0;
   justify-items: center;
   align-items: center;
   height: 320px;
+  margin-bottom: 15%;
 
 }
 .tecno img{
-  width: 20%;
+  width: 25%;
   opacity: 80%;
 }
 
@@ -358,6 +362,7 @@ padding: 0;
   align-content: center;
   justify-items: center;
   align-items: center;
+  margin-bottom: 15%;
 }
 
 .processItem{
@@ -395,6 +400,7 @@ padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr  1fr ;
   gap: 5px;
+  margin-bottom: 15%;
  
 }
 
@@ -465,4 +471,6 @@ margin: 5%;
 .contactForm > div:last-child {
   width: 40%; 
 }
+
+/* responsive*/
 

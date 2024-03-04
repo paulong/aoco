@@ -87,26 +87,35 @@ export default function Home() {
   </div>
   
       <div className={styles.containerinfo} >
+
           <div className={styles.info}>
             <h3 >  Landing Page</h3>
-            <p>One-way street to conversions: Focused page captures leads with targeted action.</p>
+            <p>It's like a love letter to your product, but with a "buy now"
+               button instead of a red rose (and hopefully less cheesy).</p>
             <img src="/right-arrow.png" alt="test"></img>
           </div>
+
           <div className={styles.info}>
-          <h3> Websites</h3>
-          <p>Digital hub: interlinked pages on a domain, sharing info & goals..</p>
-          <img src="/right-arrow.png" alt="test"></img>
+            <h3> Websites</h3>
+            <p>It's your online billboard, except instead of flashing lights and 
+            cheesy slogans, you have engaging content and clear calls to action.</p>
+            <img src="/right-arrow.png" alt="test"></img>
           </div>
+
           <div className={styles.info}>
-          <h3>Ecommerce</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="/right-arrow.png" alt="test"></img>
+            <h3>Ecommerce</h3>
+            <p>It's your online billboard, except instead of flashing lights and 
+              cheesy slogans, you have engaging content and clear calls to action.</p>
+            <img src="/right-arrow.png" alt="test"></img>
           </div>
+
           <div className={styles.info}>
-          <h3>Social media</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <img src="/right-arrow.png" alt="test"></img>
+            <h3>Social media</h3>
+            <p>Remember that awkward moment when you explain your Linktree to your grandma? 
+              This is so simple, even she'll understand (and maybe even share your stuff!)</p>
+            <img src="/right-arrow.png" alt="test"></img>
           </div>
+
       </div>
 </div>
 
@@ -122,45 +131,48 @@ export default function Home() {
     that delivers measurable results. We're not just about making websites 
     pretty, we're about making them work for you."
     </p>
-    <button className={styles.buttons1} href="form"> Contact Us</button>
+    <button className={styles.buttons1} href="form"> Contact Us &#8594;</button>
   </div>
     <img src="/paulo.png" alt="test"></img>
 </div>
 
+
 <div className={styles.titles}>
   <h2> How we work</h2>
 </div>
+
 <div className={styles.process}>
 
   <div className={styles.processItem}>
     <h1>01</h1>
+   
     <p>
-      We're not just about making websites 
-      pretty, we're about making them work for you."
+      <span className={styles.infoHighlight}>Choosing the Perfect Tool:</span>  <br/>
+        Whether it's a sizzling, we'll work together to find the technology that best fits your needs and goals.
     </p>
   </div>
 
   <div className={styles.processItem}>
      <h1>02</h1>
      <p>
-      We're not just about making websites 
-      pretty, we're about making them work for you."
+     <span className={styles.infoHighlight}> Design & Development: </span>  <br/>
+     Once the chosen tool is in hand, our skilled designers and developers will get to work.
     </p>
   </div>
 
   <div className={styles.processItem}> 
   <h1>03</h1>
   <p>
-    We're not just about making websites 
-    pretty, we're about making them work for you."
+  <span className={styles.infoHighlight}>Free Revisions: Your Satisfaction Matters: </span>  <br/>
+  We don't believe in one-size-fits-all solutions. That's why we offer free revisions. We want you to be 100% thrilled with the final product.
     </p>
   </div>
 
   <div className={styles.processItem}> 
     <h1>04</h1>
     <p>
-      We're not just about making websites 
-      pretty, we're about making them work for you."
+    <span className={styles.infoHighlight}> Launch & Beyond: </span>  <br/>
+    The moment you've been waiting for! Your project goes live, ready to shine and conquer the world (or at least your target audience).
     </p>
   </div>
 
@@ -170,7 +182,9 @@ export default function Home() {
 
 {/*  brand tha we use */}
 
-
+<div className={styles.titles}>
+  <h2> Brands</h2>
+</div>
 <div className={styles.tecno}>
   <img src="/wordpress.png" alt="test"></img>
   <img src="/wix.png" alt="test"></img>
@@ -206,41 +220,47 @@ export default function Home() {
 <div className={styles.ContainerExitos}>
   <div className={styles.Exitos}  >
     <h1>Starter Plan</h1>
-    <h2 > $20/month</h2>
+    <h2 > 9.99/Month</h2>
     <ul>
-      <li>landing page</li>
-      <li>social media links</li>
-      <li>website</li>
-      <li>social media links</li>
-      <li>Contact form</li> 
+      <li> landing page</li>
+      <li> one change a month</li>
+      <li>social media links </li>
+      <li> Free hosting</li>
+      <li><br /></li> 
+      <li><br /></li> 
+      <li><br /></li> 
     </ul>
-    <a href='' className={styles.buyButtom}> More info </a>
+    <a href='' className={styles.buyButtom}> Ask </a>
   </div>
 
   <div className={styles.Exitos}  >
-    <h1>Growth Plan</h1>
-    <h2 > $20/month</h2>
+    <h1> Growth Plan</h1>
+    <h2> 19.99/Month</h2>
     <ul>
-      <li>website</li>
-      <li>social media links</li>
+      <li>Basic website</li>
+      <li>Free Changes</li> 
       <li>Contact form</li>
-      <li>website</li>
-      <li>social media links</li>
+      <li>Free hosting</li>
+      <li>Free DOmaing (first year)</li>
+      <li><br /></li> 
+      <li><br /></li> 
     </ul>
-    <a href='' className={styles.buyButtom}> More info </a>
+    <a href='' className={styles.buyButtom}>Ask </a>
   </div>
 
   <div className={styles.Exitos}  >
     <h1>Enterprise Plan</h1>
-    <h2 > $20/month</h2>
+    <h2 > Monthly</h2>
     <ul>
-      <li>website</li>
-      <li>social media links</li>
+      <li>Full website</li>
+      <li>Free Changes</li>
       <li>Contact form</li>
-      <li>website</li>
+      <li>Ecommerce</li>
       <li>social media links</li>    
+      <li>Free hosting</li>
+      <li>Free DOmaing (first year)</li>
     </ul>
-    <a href='' className={styles.buyButtom}> More info </a>
+    <a href='' className={styles.buyButtom}> Ask </a>
   </div>
 </div>
 
@@ -286,8 +306,10 @@ export default function Home() {
 <div className={styles.contact}>
 
   <div className={styles.contactItem}>
-    <h1>Let's get <br/>
-    started.</h1>
+    <h1>
+      Let's get <br/>
+      started.
+    </h1>
   </div>
   
   <div className={styles.contactItem} id="  form">
