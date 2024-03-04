@@ -531,7 +531,21 @@ margin: 5%;
     }
   .sectionAbout img{
 
-    height: 50%;
+    height: 150px;
+  }
+
+  .sectionAbout p {
+    font-size: calc( var(--font-size) *1.2);
+  }
+  
+  .containerinfo{
+    display: block;
+    border-radius: 150px;
+  }
+
+  .info{
+    border-radius: 20px;
+    height: 100px;
   }
 
   .info h3{
@@ -542,5 +556,29 @@ margin: 5%;
     font-size:calc( var(--font-size) * 1.5) ;
   }
 
+  .process{
+    display: block;
+    font-size: var(--font-size);
+  }
 
+  .processItem{
+    height: 110px;
+  }
+
+  .processItem p{
+
+    font-size: calc( var( --font-size)*2);
+  }
+
+  .processItem h1{
+
+    font-size: calc(  var(--font-size-MH) *2);
+  }
+
+
+  .tecno img{
+
+    height: 45%;
+    width: 45%;
+  }
 }
