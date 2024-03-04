@@ -534,6 +534,13 @@ margin: 5%;
     height: 50%;
   }
 
+  .info h3{
+    font-size: calc( var(--font-size-SH) *2);
+  }
+
+  .info p{
+    font-size:calc( var(--font-size) * 1.5) ;
+  }
 
 
 }
