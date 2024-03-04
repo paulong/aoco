@@ -584,12 +584,35 @@ margin: 5%;
 
   .tecno img{
 
-    height: 38%;
+    height: 35%;
     width: 45%;
+  }
+
+  .Exitos {
+    width: 200px;
+    font-size: var(--font-size-SH);
   }
 
   .Exitos h1{
     font-size: calc( var(--font-size-H));
 
+  }
+
+  .Exitos h2{
+    font-size: var(--font-size-SH);
+  }
+
+  
+
+  .ContainerExitos{
+  
+    display: grid;
+    grid-template-columns: 1fr;
+   justify-items: center;
+    justify-content: center;
+  }
+
+  .buyButtom{
+    font-size: var(--font-size-H);
   }
 }
