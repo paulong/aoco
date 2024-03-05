@@ -520,7 +520,13 @@ margin: 5%;
   }
 
   .SubHeader h1{
-    font-size:calc( var(--font-size-SH) / 0.5);
+    font-size:calc( var(--font-size-H) *2);
+  }
+
+  .titles{
+
+    font-size:
+    calc( var(--font-size-MH)*1.4);
   }
 
 
@@ -534,7 +540,7 @@ margin: 5%;
   }
 
   .sectionAbout p {
-    font-size: calc( var(--font-size) *2);
+    font-size: calc( var(--font-size) *2.3);
   }
 
 
@@ -547,11 +553,11 @@ margin: 5%;
   }
 
   .info h3{
-    font-size: calc( var(--font-size-SH) *2);
+    font-size: calc( var(--font-size-SH) *2.3);
   }
 
   .info p{
-    font-size:calc( var(--font-size) * 2) ;
+    font-size:calc( var(--font-size) * 2.3) ;
   }
 
   .etiquetas{
@@ -559,7 +565,7 @@ margin: 5%;
   }
 
  .etiquetas{
-  font-size: calc( var(--font-size) *2);
+  font-size: calc( var(--font-size) *2.3);
  }
 
   .process{
@@ -573,12 +579,12 @@ margin: 5%;
 
   .processItem p{
 
-    font-size: calc( var( --font-size)*2);
+    font-size: calc( var( --font-size)*2.3);
   }
 
   .processItem h1{
 
-    font-size: calc(  var(--font-size-MH) *2);
+    font-size: calc(  var(--font-size-MH) *2.3);
   }
 
 
@@ -589,8 +595,10 @@ margin: 5%;
   }
 
   .Exitos {
-    width: 200px;
+    width: 220px;
     font-size: var(--font-size-SH);
+    padding-bottom: 1%;
+    margin-bottom: 1%;
   }
 
   .Exitos h1{
@@ -599,7 +607,7 @@ margin: 5%;
   }
 
   .Exitos h2{
-    font-size: var(--font-size-SH);
+    font-size: var(--font-size-H);
   }
 
   
