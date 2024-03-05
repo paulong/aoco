@@ -623,4 +623,28 @@ margin: 5%;
   .buyButtom{
     font-size: var(--font-size-H);
   }
+
+  .portfolio {
+    display:block;
+  }
+
+  .portfolioIntem{ 
+    margin-bottom: 15%;
+
+  }
+  .portfolioIntem h3{
+
+    font-size: calc( var(--font-size-H) *2);
+  }
+
+  .portfolioIntem p{
+    font-size: calc( var(--font-size-SH) );
+
+  }
+
+  .portfolioIntem a{
+    font-size: calc( var(--font-size-SH) )
+  }
+
+  
 }

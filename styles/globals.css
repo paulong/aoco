@@ -80,3 +80,13 @@ select {
 }
 
 
+@media screen and (max-width: 480px) {
+  input,
+  textarea,
+  select {
+
+    width: 100%;
+  }
+
+
+}
