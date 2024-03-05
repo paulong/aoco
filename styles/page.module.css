@@ -532,6 +532,7 @@ margin: 5%;
 
   .sectionAbout{
    display: block;
+   height: 305px;
   
     }
   .sectionAbout img{
@@ -646,5 +647,8 @@ margin: 5%;
     font-size: calc( var(--font-size-SH) )
   }
 
-  
+  .buttons1{
+    font-size: calc( var(--font-size-H) *2);
+  }
+
 }
