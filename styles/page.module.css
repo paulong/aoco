@@ -341,7 +341,8 @@ padding: 0;
   justify-items: center;
   align-items: center;
   height: 320px;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
+  margin-top: 10%;
 
 }
 .tecno img{
@@ -400,10 +401,7 @@ padding: 0;
  
 }
 
-.portfolioIntem{
-   height: 600px;
-  padding: 1px;
-}
+
 .portfolioIntem h1{
   font-size: var(--font-size-H);
   margin: 0;
@@ -412,7 +410,7 @@ padding: 0;
 }
 .portfolioIntem h3{
   font-family:var(--font-family-2);
-font-size: calc(var(--font-size)* 1.5);
+  font-size: calc(var(--font-size)* 1.5);
   margin: 0;
   padding:0;
 }
@@ -420,7 +418,7 @@ font-size: calc(var(--font-size)* 1.5);
 
 .portfolioIntem img{
   width: 100%;
-  height: 80%;
+  height: 50%;
 }
 
 .portfolioIntem a {
@@ -453,13 +451,13 @@ margin: 5%;
 .contactItem h1{
   font-family: var(--font-family-3);
   font-size: var(--font-size-MH);
- text-align: center;
+  text-align: center;
 }
 
 .contactLabel{
   font-size: var(--font-size-SH);
   background-color: var(--Eerie-Black);
-   font-family: var(--font-family)
+  font-family: var(--font-family)
 
 }
 
@@ -496,6 +494,11 @@ margin: 5%;
 
   .processItem{
     height: 100%;
+
+  }
+
+  .portfolioIntem img{
+    height: 70%;
 
   }
 
@@ -630,7 +633,7 @@ margin: 5%;
   }
 
   .portfolioIntem{ 
-    margin-bottom: 15%;
+    margin-bottom: 10%; 
 
   }
   .portfolioIntem h3{
@@ -649,6 +652,19 @@ margin: 5%;
 
   .buttons1{
     font-size: calc( var(--font-size-H) *2);
+  }
+  .portfolioIntem img{
+    height: 40%;
+
+  }
+
+  .contactItem h1{
+    font-size:calc( var(--font-size-MH) *1.5);
+  }
+
+  .contactLabel{
+    font-size:calc( var(--font-size-SH) *1.2);
+
   }
 
 }

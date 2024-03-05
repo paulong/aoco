@@ -258,27 +258,27 @@ export default function Home() {
 
 
 <div className={styles.titles}>
-  <h2>Selected projects </h2>
+  <h2>Projects </h2>
 </div>
 
 <div className={styles.portfolio}>
   <div className={styles.portfolioIntem}>
     <h3> AO.CO</h3>
-    <img src="/test.jpg" alt="test"></img>
+    <img src="/banner.png" alt="test"></img>
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
     <h3> Snug Land</h3>
-    <img src="/test.jpg" alt="test"></img> 
+    <img src="/banner.png" alt="test"></img> 
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
     <h3> Coming soon</h3>
-    <img src="/test.jpg" alt="test"></img>
+    <img src="/banner.png" alt="test"></img>
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
