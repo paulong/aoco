@@ -2,13 +2,22 @@ import Image from 'next/image'
 import styles from '../styles/page.module.css'
 import Head from 'next/head'
 import Footer from './footer'
+import Aos from 'aos'
+import "aos/dist/aos.css"
+
+
+
 
 
 export default function Home() {
+
+
   return (
    <>
     <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+      
+
         <title>AOCO</title>
         <meta
           name="description"
@@ -26,9 +35,15 @@ export default function Home() {
                     guest’s enjoyment during their stay."
         />
         <link rel="icon" href="..." />
+        <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+        
         
       
     </Head>
+    <script src="bower_components/aos/dist/aos.js"></script>
+        <script>
+           AOS.init(10);
+        </script>
     <main className={styles.main} >
     
 
@@ -46,8 +61,8 @@ export default function Home() {
           <span className={styles.LargeFont}> for you &#x2661; </span>"
         </h2> 
       </div>
-      
     
+     
      
 {/*
       <div className={styles.headerNewsContainer}>
@@ -72,11 +87,15 @@ export default function Home() {
       </div>
   */}    
  
-
+ <div 
+     data-aos="fade-left"
+    >
+  RIGHT
+</div>
      
 <div className={styles.SubHeader}>
   <div className={styles.centerText}> 
-      <h1> 
+      <h1  > 
          Don't waste <br/>
         any more time, <br/> 
         let's get it built! <span className={styles.SmallFont}> &#x2661;</span>
@@ -112,9 +131,22 @@ export default function Home() {
       </div>
 </div>
 
-<div className={styles.titles}>
-  <h2>About <span className={styles.titleRed}>AO.CO </span> </h2>
+<div data-aos="fade-up" >
+  <h1>paulo</h1>
 </div>
+
+
+<div  className={styles.titles}>
+
+
+  <h2>About <span className={styles.titleRed}>AO.CO </span> </h2>
+
+
+</div>
+
+
+
+
 <div className={styles.sectionAbout}>
   <div className={styles.sectionAboutItem}>
     <p>

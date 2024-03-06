@@ -177,6 +177,7 @@
 .info h3:hover{
   color: var(--white-smoke);
   text-shadow: 3px 3px var(--Eerie-Black);
+  
 }
 
 .info img{
@@ -190,7 +191,8 @@
   background-color: var(--jonquil);
   border-width: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  -webkit-animation: blink1 1.6s forwards;
+	        animation: blink1 1.6s forwards;
   
 }
 
@@ -276,7 +278,8 @@ font-size: var(--font-size-MH);
 color: var(--Eerie-Black);
 margin: 0;
 padding: 0;
-
+-webkit-animation: slideinleft 20.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slideinleft 20.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .titles h2{
@@ -669,7 +672,16 @@ margin: 5%;
 
   }
 
-}/* animation */
+}
+
+
+
+
+/**
+ * ----------------------------------------
+ * Blink-1
+ * ----------------------------------------
+ */
 .blink1 {
 	-webkit-animation: blink1 11.6s forwards;
 	        animation: blink1 11.6s forwards;
@@ -694,5 +706,77 @@ margin: 5%;
   25%,
   75% {
     opacity: 0;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation rotate-in-ver
+ * ----------------------------------------
+ */
+.rotateinver {
+	-webkit-animation: rotateinver 10.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: rotateinver 10.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+} 
+
+@-webkit-keyframes rotateinver {
+  0% {
+    -webkit-transform: rotateY(-360deg);
+            transform: rotateY(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+@keyframes rotateinver {
+  0% {
+    -webkit-transform: rotateY(-360deg);
+            transform: rotateY(-360deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    opacity: 1;
+  }
+}
+
+
+/**
+ * ----------------------------------------
+ * animation slide-in-left
+ * ----------------------------------------
+ */
+
+ .slideinleft {
+	-webkit-animation: slideinleft 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slideinleft 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slideinleft {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slideinleft {
+  0% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
   }
 }
