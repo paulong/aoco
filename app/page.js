@@ -41,7 +41,7 @@ export default function Home() {
         </div> 
       */}
       <div className={styles.gate}>
-        <h2>
+        <h2 className={styles.blink1}>
            "We <span className={styles.SmallFont}> Build &#8594; </span>  websites
           <span className={styles.LargeFont}> for you &#x2661; </span>"
         </h2> 
@@ -210,6 +210,22 @@ export default function Home() {
 </div>
 
 <div className={styles.ContainerExitos}>
+
+<div className={styles.Exitos}  >
+    <h1>Social Media</h1>
+    <h2 > $5/Monthly</h2>
+    <ul>
+      <li>Full website</li>
+      <li>Free Changes</li>
+      <li>Contact form</li>
+      <li>Ecommerce</li>
+      <li>social media links</li>    
+      <li>Free hosting</li>
+      <li>Free DOmaing (first year)</li>
+    </ul>
+    <a href='' className={styles.buyButtom}> Ask </a>
+  </div>
+
   <div className={styles.Exitos}  >
     <h1>Starter Plan</h1>
     <h2 > 9.99/Month</h2>
@@ -240,20 +256,7 @@ export default function Home() {
     <a href='' className={styles.buyButtom}>Ask </a>
   </div>
 
-  <div className={styles.Exitos}  >
-    <h1>Enterprise Plan</h1>
-    <h2 > Monthly</h2>
-    <ul>
-      <li>Full website</li>
-      <li>Free Changes</li>
-      <li>Contact form</li>
-      <li>Ecommerce</li>
-      <li>social media links</li>    
-      <li>Free hosting</li>
-      <li>Free DOmaing (first year)</li>
-    </ul>
-    <a href='' className={styles.buyButtom}> Ask </a>
-  </div>
+  
 </div>
 
 

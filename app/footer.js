@@ -14,16 +14,13 @@ export default function Footer() {
             </div>
             <div className={styles.footerInfoIntem}>
                 <ul>
-                    <li> Subscribe to our newslatter</li>
-                    <li>Blog</li>
                     <li> Tiktok</li>
                     <li>Instagram</li>
                 </ul>
             </div>
             <div className={styles.footerInfoIntem}>
                 <ul>
-                    <li> Arround the globe</li>
-                    <li> We have a Blog</li>
+                  
                     <li> @2024 AOCO</li>
                     <li>Developed by AO.CO</li>
                 </ul>

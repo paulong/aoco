@@ -299,6 +299,7 @@ padding: 0;
   justify-content: center;
   align-items: center;
   margin-bottom: 15%;
+  
 }
 
 .sectionAbout img{
@@ -536,6 +537,7 @@ margin: 5%;
   .sectionAbout{
    display: block;
    height: 305px;
+   margin-bottom: 30%;
   
     }
   .sectionAbout img{
@@ -667,4 +669,30 @@ margin: 5%;
 
   }
 
+}/* animation */
+.blink1 {
+	-webkit-animation: blink1 11.6s forwards;
+	        animation: blink1 11.6s forwards;
+}
+@-webkit-keyframes blink1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+@keyframes blink1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
