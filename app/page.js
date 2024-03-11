@@ -2,18 +2,19 @@ import Image from 'next/image'
 import styles from '../styles/page.module.css'
 import Head from 'next/head'
 import Footer from './footer'
-import Aos from 'aos'
-import "aos/dist/aos.css"
+
 
 
 
 
 
 export default function Home() {
-
+  
+  
 
   return (
    <>
+   
     <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
       
@@ -36,14 +37,14 @@ export default function Home() {
         />
         <link rel="icon" href="..." />
         <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
-        
-        
-      
-    </Head>
-    <script src="bower_components/aos/dist/aos.js"></script>
+        <script src="bower_components/aos/dist/aos.js"></script>
         <script>
            AOS.init(10);
         </script>
+        
+      
+    </Head>
+   
     <main className={styles.main} >
     
 
@@ -87,11 +88,7 @@ export default function Home() {
       </div>
   */}    
  
- <div 
-     data-aos="fade-left"
-    >
-  RIGHT
-</div>
+
      
 <div className={styles.SubHeader}>
   <div className={styles.centerText}> 
@@ -131,9 +128,6 @@ export default function Home() {
       </div>
 </div>
 
-<div data-aos="fade-up" >
-  <h1>paulo</h1>
-</div>
 
 
 <div  className={styles.titles}>
@@ -293,12 +287,12 @@ export default function Home() {
 
 
 <div className={styles.titles}>
-  <h2>Projects </h2>
+  <h2  >Projects </h2>
 </div>
 
 <div className={styles.portfolio}>
   <div className={styles.portfolioIntem}>
-    <h3> AO.CO</h3>
+    <h3 > AO.CO</h3>
     <img src="/banner.png" alt="test"></img>
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
@@ -371,6 +365,8 @@ export default function Home() {
 
     <Footer /> 
     </main>
+    
     </>
+    
   )
 }
