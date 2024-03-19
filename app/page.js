@@ -1,15 +1,41 @@
+'use client';
+
 import Image from 'next/image'
 import styles from '../styles/page.module.css'
 import Head from 'next/head'
 import Footer from './footer'
+import Link from 'next/link'
 
-
-
-
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export default function Home() {
   
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_tfw44ta', 'template_01eoxvf', form.current, {
+        publicKey: '9V-aDbQCbDY7Pq65l',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+  const handleScrollToForm = () => {
+    if (contactFormRef.current) {
+      contactFormRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   
 
   return (
@@ -47,7 +73,7 @@ export default function Home() {
    
     <main className={styles.main} >
     
-
+{/*
       <div className={styles.menu}>
         <h1> By ao.co</h1>
       </div>
@@ -150,7 +176,8 @@ export default function Home() {
       that delivers measurable results. We're not just about making websites 
       pretty, we're about making them work for you."
     </p>
-    <button className={styles.buttons1} href="form"> Contact Us &#8594;</button>
+    <button className={styles.buttons1} onClick={handleScrollToForm}> Contact Us &#8594;</button>
+    <Link href="/form" > lalo</Link>  
   </div>
     <img src="/paulo.png" alt="test"></img>
 </div>
@@ -241,43 +268,43 @@ export default function Home() {
     <h1>Social Media</h1>
     <h2 > $5/Monthly</h2>
     <ul>
-      <li>Full website</li>
-      <li>Free Changes</li>
-      <li>Contact form</li>
-      <li>Ecommerce</li>
-      <li>social media links</li>    
+      <li>custom site for socials</li>
+      <li>Links for your other medias</li>
+      <li>Unic design, no tamples</li>
+      <li>Free Changes</li>  
       <li>Free hosting</li>
-      <li>Free DOmaing (first year)</li>
+     
+      
     </ul>
     <a href='' className={styles.buyButtom}> Ask </a>
   </div>
 
   <div className={styles.Exitos}  >
     <h1>Starter Plan</h1>
-    <h2 > 9.99/Month</h2>
+    <h2 > $20/Monthly</h2>
     <ul>
       <li> landing page</li>
       <li> one change a month</li>
       <li>social media links </li>
       <li> Free hosting</li>
-      <li><br /></li> 
-      <li><br /></li> 
-      <li><br /></li> 
+       <li>Free Changes</li>
+      
+      
     </ul>
     <a href='' className={styles.buyButtom}> Ask </a>
   </div>
 
   <div className={styles.Exitos}  >
     <h1> Growth Plan</h1>
-    <h2> 19.99/Month</h2>
+    <h2> $33.33/Monthly</h2>
     <ul>
       <li>Basic website</li>
       <li>Free Changes</li> 
       <li>Contact form</li>
       <li>Free hosting</li>
       <li>Free DOmaing (first year)</li>
-      <li><br /></li> 
-      <li><br /></li> 
+     
+    
     </ul>
     <a href='' className={styles.buyButtom}>Ask </a>
   </div>
@@ -292,14 +319,14 @@ export default function Home() {
 
 <div className={styles.portfolio}>
   <div className={styles.portfolioIntem}>
-    <h3 > AO.CO</h3>
+    <h3 > Snug</h3>
     <img src="/banner.png" alt="test"></img>
-    <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
+    <p> Experts in brand new technology for homes and oficces, security systems </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
-    <h3> Snug Land</h3>
+    <h3> Moskha</h3>
     <img src="/banner.png" alt="test"></img> 
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
@@ -326,37 +353,42 @@ export default function Home() {
     </h1>
   </div>
   
-  <div className={styles.contactItem} id="  form">
-      
+  <div className={styles.contactItem}  id="contact-form">
+  <form ref={form} onSubmit={sendEmail}>
         <label className={styles.contactLabel}> Hello, my name is </label>
         <input
-          name="name" 
+          name="user_name" 
           defaultValue="awsome"
         />
        
         <label className={styles.contactLabel}> and I have a   </label> 
         <input
-          name="company" 
+          name="message" 
           maxLength="100"
           defaultValue="the greates company ever"
         /> 
           
         <label className={styles.contactLabel}>   that need help. you can reach me at </label>
         <input  
-          name="email"
+          name="user_email"
           defaultValue="youremail@example.com"
         /> 
         .
         <br/>
         <label className={styles.contactLabel}>  I would like to know more about    </label>
         <input  
-          name="email"
-          
+          name="message"
+          defaultValue="that service"
         /> 
  <br></br>
-<button className={styles.buttons1}> Send info  &#8594;</button>
+        <button className={styles.buttons1} 
+          value="Send" 
+          type="submit"
+  
+          > Send info  &#8594; </button>
+ 
       
-
+  </form>
   </div>
   
 
