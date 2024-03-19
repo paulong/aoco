@@ -5,6 +5,7 @@ import styles from '../styles/page.module.css'
 import Head from 'next/head'
 import Footer from './footer'
 import Link from 'next/link'
+import Popup from 'reactjs-popup';
 
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -30,11 +31,7 @@ export default function Home() {
       );
   };
 
-  const handleScrollToForm = () => {
-    if (contactFormRef.current) {
-      contactFormRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+
 
   
 
@@ -176,8 +173,10 @@ export default function Home() {
       that delivers measurable results. We're not just about making websites 
       pretty, we're about making them work for you."
     </p>
-    <button className={styles.buttons1} onClick={handleScrollToForm}> Contact Us &#8594;</button>
-    <Link href="/form" > lalo</Link>  
+    <button className={styles.buttons1} >
+      <Link href="#first-section" > Contact Us &#8594; </Link>
+    </button>
+
   </div>
     <img src="/paulo.png" alt="test"></img>
 </div>
@@ -353,8 +352,8 @@ export default function Home() {
     </h1>
   </div>
   
-  <div className={styles.contactItem}  id="contact-form">
-  <form ref={form} onSubmit={sendEmail}>
+  <div className={styles.contactItem}  >
+  <form id="first-section"  >
         <label className={styles.contactLabel}> Hello, my name is </label>
         <input
           name="user_name" 
@@ -381,12 +380,37 @@ export default function Home() {
           defaultValue="that service"
         /> 
  <br></br>
+<Popup
+    trigger={
+
         <button className={styles.buttons1} 
           value="Send" 
           type="submit"
-  
-          > Send info  &#8594; </button>
- 
+         
+          > 
+
+
+          Send info  &#8594; 
+        </button>}
+          modal
+          nested
+          
+        >
+    {close => (
+      <div className={styles.containerPopUp}>
+         <button className={styles.close} onClick={close}>
+          &times;
+        </button> 
+      <div className={styles.TextPopUp} >
+        <h3>Thanks for contact us! <span className={styles.SmallFont}> &#x2661;</span>
+        </h3>
+
+      </div>
+
+
+      </div>
+    )} 
+</Popup>
       
   </form>
   </div>

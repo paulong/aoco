@@ -476,6 +476,43 @@ margin: 5%;
   width: 40%; 
 }
 
+
+
+.containerPopUp{
+  height: 400px;
+  width: 600px;
+  background-color: var(--white-smoke);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+.close{
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+
+}
+
+.TextPopUp{
+color: var(--Eerie-Black);
+font-size: var(--font-size-SH);
+font-family: var(--font-family-2);
+
+}
+
+
 /* responsive*/
 
 @media screen and (max-width: 1200px) {
@@ -678,6 +715,15 @@ margin: 5%;
 
   }
 
+  .containerPopUp{
+    height: 200px;
+    width: 350px;
+  
+  
+  }
+
+ 
+
 }
 
 
@@ -786,3 +832,6 @@ margin: 5%;
     opacity: 1;
   }
 }
+
+
+
