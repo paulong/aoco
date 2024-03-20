@@ -335,6 +335,8 @@ export default function Home() {
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
+
+  
  
 </div>
 
@@ -350,7 +352,7 @@ export default function Home() {
     </h1>
   </div>
   
-  <div className={styles.contactItem}  >
+  <div className={styles.contactItem} value='form' >
     <form id="first-section"  value='form' >
         <label className={styles.contactLabel}> Hello, my name is </label>
         <input
