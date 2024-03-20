@@ -354,36 +354,40 @@ export default function Home() {
   
   <div className={styles.contactItem} value='form' >
     <form id="first-section"  value='form' >
-        <label className={styles.contactLabel}> Hello, my name is </label>
+        <label className={styles.contactLabel}> Hello, my name is 
         <input
           name="user_name" 
           defaultValue="awsome"
-          value='form' 
+           
         />
+        </label>
        
-        <label className={styles.contactLabel}> and I have a   </label> 
+        <label className={styles.contactLabel}> and I have a   
         <input
           name="message" 
           maxLength="100"
           defaultValue="the greates company ever"
-          value='form' 
+          
 
         /> 
+        </label> 
           
-        <label className={styles.contactLabel}>   that need help. you can reach me at </label>
+        <label className={styles.contactLabel}>   that need help. you can reach me at 
         <input  
           name="user_email"
           defaultValue="youremail@example.com"
-          value='form' 
+          
         /> 
+        </label>
         .
         <br/>
-        <label className={styles.contactLabel}>  I would like to know more about    </label>
+        <label className={styles.contactLabel}>  I would like to know more about   
         <input  
           name="message"
           defaultValue="that service"
-          value='form' 
+           
         /> 
+         </label>
         <br/>
 
       <Popup
