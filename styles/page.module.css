@@ -284,8 +284,7 @@ font-size: var(--font-size-MH);
 color: var(--Eerie-Black);
 margin: 0;
 padding: 0;
--webkit-animation: slideinleft 20.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: slideinleft 20.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
 }
 
 .titles h2{

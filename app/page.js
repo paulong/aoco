@@ -80,7 +80,7 @@ export default function Home() {
         </div> 
       */}
       <div className={styles.gate}>
-        <h2 className={styles.blink1}>
+        <h2 >
            "We <span className={styles.SmallFont}> Build &#8594; </span>  websites
           <span className={styles.LargeFont}> for you &#x2661; </span>"
         </h2> 
@@ -178,7 +178,7 @@ export default function Home() {
     </button>
 
   </div>
-    <img src="/paulo.png" alt="test" ></img>
+    <img src="/paulo.webp" alt="test"  width="640" height="360"></img>
 </div>
 
 
@@ -230,12 +230,12 @@ export default function Home() {
   <h2> Brands</h2>
 </div>
 <div className={styles.tecno}>
-  <img src="/wordpress.png" alt="test"></img>
-  <img src="/wix.png" alt="test"></img>
-  <img src="/elementor.png" alt="test"></img>
-  <img src="/html5.png" alt="test"></img>
-  <img src="/php.png" alt="test"></img>
-  <img src="/mail.png" alt="test"></img>
+  <img src="/wordpress.png"    width="112" height="112"  alt="test"></img>
+  <img src="/wix.png"          width="112" height="112"  alt="test"></img>
+  <img src="/elementor.png"    width="112" height="122"  alt="test"></img>
+  <img src="/html5.png"        width="112" height="112"  alt="test"></img>
+  <img src="/php.png"          width="112" height="112"  alt="test"></img>
+  <img src="/mail.png"         width="112" height="112"  alt="test"></img>
   
 
 </div>
@@ -317,21 +317,21 @@ export default function Home() {
 <div className={styles.portfolio}>
   <div className={styles.portfolioIntem}>
     <h3 > Snug</h3>
-    <img src="/banner.png" alt="test"></img>
+    <img src="/banner.webp" width="512" height="512" alt="test"></img>
     <p> Experts in brand new technology for homes and oficces, security systems </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
     <h3> Moskha</h3>
-    <img src="/banner.png" alt="test"></img> 
+    <img src="/banner.webp" width="512" height="512" alt="test"></img> 
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
     <h3> Coming soon</h3>
-    <img src="/banner.png" alt="test"></img>
+    <img src="/banner.webp"  width="640" height="360" alt="test"></img>
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
