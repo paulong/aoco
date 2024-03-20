@@ -173,12 +173,12 @@ export default function Home() {
       that delivers measurable results. We're not just about making websites 
       pretty, we're about making them work for you."
     </p>
-    <button className={styles.buttons1} >
-      <Link href="#first-section" > Contact Us &#8594; </Link>
+    <button  >
+      <Link  href="#first-section" className={styles.buttons1} > Contact Us &#8594; </Link>
     </button>
 
   </div>
-    <img src="/paulo.png" alt="test"></img>
+    <img src="/paulo.png" alt="test" ></img>
 </div>
 
 
@@ -257,7 +257,7 @@ export default function Home() {
     just starting out, a medium-sized company looking to expand, or a large 
     organization seeking to optimize your digital presence, AO.CO has 
     the perfect solution for you. We offer three comprehensive
-    plans: Starter, Growth, and Enterprise
+    plans: Social media, Starter and Growth.
   </p>
 </div>
 
@@ -268,14 +268,14 @@ export default function Home() {
     <h2 > $5/Monthly</h2>
     <ul>
       <li>custom site for socials</li>
-      <li>Links for your other medias</li>
+      <li>Links for your other social medias</li>
       <li>Unic design, no tamples</li>
       <li>Free Changes</li>  
       <li>Free hosting</li>
      
       
     </ul>
-    <a href='' className={styles.buyButtom}> Ask </a>
+    <a href="#first-section" className={styles.buyButtom}> Ask </a>
   </div>
 
   <div className={styles.Exitos}  >
@@ -283,14 +283,12 @@ export default function Home() {
     <h2 > $20/Monthly</h2>
     <ul>
       <li> landing page</li>
-      <li> one change a month</li>
       <li>social media links </li>
       <li> Free hosting</li>
-       <li>Free Changes</li>
-      
-      
+      <li>Free Changes</li>
+      <br/>
     </ul>
-    <a href='' className={styles.buyButtom}> Ask </a>
+    <a href="#first-section" className={styles.buyButtom}> Ask </a>
   </div>
 
   <div className={styles.Exitos}  >
@@ -301,11 +299,11 @@ export default function Home() {
       <li>Free Changes</li> 
       <li>Contact form</li>
       <li>Free hosting</li>
-      <li>Free DOmaing (first year)</li>
+      <li>Free Domaing (first year)*</li>
      
     
     </ul>
-    <a href='' className={styles.buyButtom}>Ask </a>
+    <a href="#first-section" className={styles.buyButtom}>Ask </a>
   </div>
 
   
@@ -353,11 +351,12 @@ export default function Home() {
   </div>
   
   <div className={styles.contactItem}  >
-  <form id="first-section"  >
+    <form id="first-section"  >
         <label className={styles.contactLabel}> Hello, my name is </label>
         <input
           name="user_name" 
           defaultValue="awsome"
+         
         />
        
         <label className={styles.contactLabel}> and I have a   </label> 
@@ -365,12 +364,15 @@ export default function Home() {
           name="message" 
           maxLength="100"
           defaultValue="the greates company ever"
+         
+
         /> 
           
         <label className={styles.contactLabel}>   that need help. you can reach me at </label>
         <input  
           name="user_email"
           defaultValue="youremail@example.com"
+       
         /> 
         .
         <br/>
@@ -378,19 +380,20 @@ export default function Home() {
         <input  
           name="message"
           defaultValue="that service"
+         
         /> 
- <br></br>
-<Popup
-    trigger={
+        <br/>
 
-        <button className={styles.buttons1} 
+      <Popup
+        trigger={
+        
+
+        <button  
           value="Send" 
           type="submit"
+          > <Link href='' className={styles.buttons1} scroll={false}>  Send info  &#8594;</Link>
          
-          > 
-
-
-          Send info  &#8594; 
+          
         </button>}
           modal
           nested
@@ -404,25 +407,24 @@ export default function Home() {
       <div className={styles.TextPopUp} >
         <h3>Thanks for contact us! <span className={styles.SmallFont}> &#x2661;</span>
         </h3>
+        
 
       </div>
 
 
       </div>
     )} 
-</Popup>
+  </Popup>
       
-  </form>
-  </div>
+    </form>
+    </div>
   
 
-</div>
+    </div>
 
 
     <Footer /> 
-    </main>
-    
+    </main>  
     </>
-    
   )
 }

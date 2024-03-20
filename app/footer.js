@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/footer.module.css'
 
 export default function Footer() {
@@ -14,8 +15,8 @@ export default function Footer() {
             </div>
             <div className={styles.footerInfoIntem}>
                 <ul>
-                    <li> Tiktok</li>
-                    <li>Instagram</li>
+                    <li className={styles.blacktext}> <Link href="">Tiktok       </Link></li>
+                    <li> <Link href="">Instagram    </Link></li>
                 </ul>
             </div>
             <div className={styles.footerInfoIntem}>

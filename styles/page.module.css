@@ -595,13 +595,16 @@ font-family: var(--font-family-2);
     font-size: calc( var(--font-size) *2.3);
   }
 
-
+.containerinfo{
+  display: block;
+}
   
   
 
   .info{
+  
     border-radius: 20px;
-    height: 200px;
+    height: 150px;
   }
 
   .info h3{
@@ -642,7 +645,7 @@ font-family: var(--font-family-2);
 
   .tecno img{
 
-    height: 35%;
+    
     width: 45%;
   }
 
@@ -735,6 +738,7 @@ font-family: var(--font-family-2);
  * ----------------------------------------
  */
 .blink1 {
+  animation-delay: 500ms;
 	-webkit-animation: blink1 11.6s forwards;
 	        animation: blink1 11.6s forwards;
 }

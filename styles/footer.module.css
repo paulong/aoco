@@ -33,4 +33,10 @@ padding-top: 1%;
 .footerInfoIntem li{
     list-style : none;
     font-size: calc( var(--font-size) *1.5);
+    color: var(--Eerie-Black);
+}
+
+
+.footerInfoIntem a{
+    color: var(--Eerie-Black);
 }
