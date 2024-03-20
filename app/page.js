@@ -125,25 +125,25 @@ export default function Home() {
       <div className={styles.containerinfo} >
 
           <div className={styles.info}>
-            <h3 >  Landing Page</h3>
+            <h2 >  Landing Page</h2>
             <p>It's like a love letter to your product, but with a "buy now"
                button instead of a red rose (and hopefully less cheesy).</p>
           </div>
 
           <div className={styles.info}>
-            <h3> Websites</h3>
+            <h2> Websites</h2>
             <p>It's your online billboard, except instead of flashing lights and 
             cheesy slogans, you have engaging content and clear calls to action.</p>
           </div>
 
           <div className={styles.info}>
-            <h3>Ecommerce</h3>
+            <h2>Ecommerce</h2>
             <p>It's your online billboard, except instead of flashing lights and 
               cheesy slogans, you have engaging content and clear calls to action.</p>
           </div>
 
           <div className={styles.info}>
-            <h3>Social media</h3>
+            <h2>Social media</h2>
             <p>Remember that awkward moment when you explain your Linktree to your grandma? 
               This is so simple, even she'll understand (and maybe even share your stuff!)</p>
           </div>
@@ -178,7 +178,7 @@ export default function Home() {
     </button>
 
   </div>
-    <img src="/paulo.webp" alt="test"  width="640" height="360"></img>
+    <img src="/paulo.webp" alt="test"  width="504" height="360"></img>
 </div>
 
 
@@ -275,7 +275,7 @@ export default function Home() {
      
       
     </ul>
-    <a href="#first-section" className={styles.buyButtom}> Ask </a>
+    <a href="#first-section" className={styles.buyButtom} value='tal'> Ask </a>
   </div>
 
   <div className={styles.Exitos}  >
@@ -286,9 +286,9 @@ export default function Home() {
       <li>social media links </li>
       <li> Free hosting</li>
       <li>Free Changes</li>
-      <br/>
+     
     </ul>
-    <a href="#first-section" className={styles.buyButtom}> Ask </a>
+    <a href="#first-section" className={styles.buyButtom} value='tal'> Ask </a>
   </div>
 
   <div className={styles.Exitos}  >
@@ -303,7 +303,7 @@ export default function Home() {
      
     
     </ul>
-    <a href="#first-section" className={styles.buyButtom}>Ask </a>
+    <a href="#first-section" className={styles.buyButtom} value='tal'>Ask </a>
   </div>
 
   
@@ -351,7 +351,7 @@ export default function Home() {
   </div>
   
   <div className={styles.contactItem}  >
-    <form id="first-section"  >
+    <form id="first-section"  value='form' >
         <label className={styles.contactLabel}> Hello, my name is </label>
         <input
           name="user_name" 

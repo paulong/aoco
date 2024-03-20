@@ -172,7 +172,7 @@
   padding-left: 1%;
 }
 
-.info h3{
+.info h2{
   margin: 0;
   padding: 1%;
   color: var(--Eerie-Black);
@@ -180,7 +180,7 @@
   font-size: var(--font-size-SH);
 }
 
-.info h3:hover{
+.info h2:hover{
   color: var(--white-smoke);
   text-shadow: 3px 3px var(--Eerie-Black);
   
@@ -349,13 +349,13 @@ padding: 0;
   justify-content: center;
   justify-items: center;
   align-items: center;
-  height: 320px;
+
   margin-bottom: 10%;
   margin-top: 10%;
 
 }
 .tecno img{
-  width: 25%;
+ 
   opacity: 80%;
 }
 
