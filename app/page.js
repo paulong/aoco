@@ -232,7 +232,7 @@ export default function Home() {
 <div className={styles.tecno}>
   <img src="/wordpress.png"    width="112" height="112"  alt="test"></img>
   <img src="/wix.png"          width="112" height="112"  alt="test"></img>
-  <img src="/elementor.png"    width="112" height="122"  alt="test"></img>
+  <img src="/elementor.png"    width="112" height="112"  alt="test"></img>
   <img src="/html5.png"        width="112" height="112"  alt="test"></img>
   <img src="/php.png"          width="112" height="112"  alt="test"></img>
   <img src="/mail.png"         width="112" height="112"  alt="test"></img>
@@ -317,21 +317,21 @@ export default function Home() {
 <div className={styles.portfolio}>
   <div className={styles.portfolioIntem}>
     <h3 > Snug</h3>
-    <img src="/banner.webp" width="512" height="512" alt="test"></img>
+    <img src="/banner.webp" width="1536" height="1024" alt="test"></img>
     <p> Experts in brand new technology for homes and oficces, security systems </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
     <h3> Moskha</h3>
-    <img src="/banner.webp" width="512" height="512" alt="test"></img> 
+    <img src="/banner.webp" width="1536" height="1024" alt="test"></img> 
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
     <h3> Coming soon</h3>
-    <img src="/banner.webp"  width="640" height="360" alt="test"></img>
+    <img src="/banner.webp"  width="1536" height="1024" alt="test"></img>
     <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
@@ -356,7 +356,7 @@ export default function Home() {
         <input
           name="user_name" 
           defaultValue="awsome"
-         
+          value='form' 
         />
        
         <label className={styles.contactLabel}> and I have a   </label> 
@@ -364,7 +364,7 @@ export default function Home() {
           name="message" 
           maxLength="100"
           defaultValue="the greates company ever"
-         
+          value='form' 
 
         /> 
           
@@ -372,7 +372,7 @@ export default function Home() {
         <input  
           name="user_email"
           defaultValue="youremail@example.com"
-       
+          value='form' 
         /> 
         .
         <br/>
@@ -380,7 +380,7 @@ export default function Home() {
         <input  
           name="message"
           defaultValue="that service"
-         
+          value='form' 
         /> 
         <br/>
 
