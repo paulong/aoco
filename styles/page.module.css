@@ -72,6 +72,13 @@
   border-radius: 50%;
 }
 
+
+.detailText{
+  
+  border-bottom: 1px solid var(--Eerie-Black);
+  
+
+}
 .headerNewsContainer {
   display: grid;
   grid-template-columns:  1fr 1fr 1fr 1fr;
@@ -225,6 +232,7 @@
 
 }
 
+
 .Exitos:hover {
   background-color: var(--coquelicot);
   border: 2px solid var(--Eerie-Black);
@@ -251,7 +259,6 @@
 .buyButtom {
   font-family: var(--font-family-2);
   font-size: var(--font-size-SH);
-  
   color: var(--white-smoke);
   width: fit-content;
   text-decoration: none;
@@ -346,16 +353,15 @@ padding: 0;
 .tecno{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 120px;
   justify-content: center;
   justify-items: center;
   align-items: center;
-
   margin-bottom: 10%;
   margin-top: 10%;
-
 }
+
 .tecno img{
- 
   opacity: 80%;
 }
 
@@ -411,6 +417,8 @@ padding: 0;
 }
 
 
+
+
 .portfolioIntem h1{
   font-size: var(--font-size-H);
   margin: 0;
@@ -428,6 +436,7 @@ padding: 0;
 .portfolioIntem img{
   width: 100%;
   height: 57%;
+  border-radius: var(--radius);
 }
 
 .portfolioIntem a {
@@ -569,7 +578,7 @@ font-family: var(--font-family-2);
   }
 
   .SubHeader h1{
-    font-size:calc( var(--font-size-H) *2);
+    font-size:calc( var(--font-size-H) *1.2);
   }
 
   .titles{
@@ -587,7 +596,8 @@ font-family: var(--font-family-2);
     }
   .sectionAbout img{
 
-    height: 150px;
+    height: 57%;
+    width: 65%;
   }
 
   .sectionAbout p {
@@ -601,12 +611,11 @@ font-family: var(--font-family-2);
   
 
   .info{
-  
     border-radius: 20px;
-    height: 150px;
+    height: 135px;
   }
 
-  .info h3{
+  .info h2{
     font-size: calc( var(--font-size-SH) *2.3);
   }
 
@@ -642,14 +651,17 @@ font-family: var(--font-family-2);
   }
 
 
+  .tecno{
+    grid-row-gap: 70px;
+  }
   .tecno img{
 
-    
-    width: 45%;
+    height: 100%;
+    width: 65%;
   }
 
   .Exitos {
-    width: 220px;
+    width: 240px;
     font-size: var(--font-size-SH);
     padding-bottom: 1%;
     margin-bottom: 1%;

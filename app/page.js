@@ -267,8 +267,7 @@ export default function Home() {
     <h1>Social Media</h1>
     <h2 > $5/Monthly</h2>
     <ul>
-      <li>custom site for socials</li>
-      <li>Links for your other social medias</li>
+      <li>custom site for socials links</li>
       <li>Unic design, no tamples</li>
       <li>Free Changes</li>  
       <li>Free hosting</li>
@@ -282,11 +281,10 @@ export default function Home() {
     <h1>Starter Plan</h1>
     <h2 > $20/Monthly</h2>
     <ul>
-      <li> landing page</li>
-      <li>social media links </li>
-      <li> Free hosting</li>
-      <li>Free Changes</li>
-     
+      <li> landing page               </li>
+      <li>social media links          </li>
+      <li>Free Changes                </li>
+      <li> Free hosting               </li>
     </ul>
     <a href="#first-section" className={styles.buyButtom} value='tal'> Ask </a>
   </div>
@@ -295,13 +293,10 @@ export default function Home() {
     <h1> Growth Plan</h1>
     <h2> $33.33/Monthly</h2>
     <ul>
-      <li>Basic website</li>
-      <li>Free Changes</li> 
-      <li>Contact form</li>
-      <li>Free hosting</li>
-      <li>Free Domaing (first year)*</li>
-     
-    
+      <li>Basic website               </li>
+      <li>Contact form                </li>
+      <li>Free Changes                </li>      
+      <li>Free hosting                </li>
     </ul>
     <a href="#first-section" className={styles.buyButtom} value='tal'>Ask </a>
   </div>
@@ -318,21 +313,24 @@ export default function Home() {
   <div className={styles.portfolioIntem}>
     <h3 > Snug</h3>
     <img src="/banner.webp" width="1536" height="1024" alt="test"></img>
-    <p> Experts in brand new technology for homes and oficces, security systems </p>
+    <p> <spam className={styles.detailText}> Website:</spam> <br/>
+    Experts in brand new technology for homes and oficces, security systems, audio systems.  </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
     <h3> Moskha</h3>
     <img src="/banner.webp" width="1536" height="1024" alt="test"></img> 
-    <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
+    <p> <spam className={styles.detailText}> Landig Page:</spam> <br/>
+    firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
 
   <div className={styles.portfolioIntem}>
     <h3> Coming soon</h3>
     <img src="/banner.webp"  width="1536" height="1024" alt="test"></img>
-    <p> firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
+    <p> <spam className={styles.detailText}> Links for social media:</spam> <br/>
+     firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
     <a href=''> See the websites</a>
   </div>
 
@@ -366,7 +364,7 @@ export default function Home() {
         <input
           name="message" 
           maxLength="100"
-          defaultValue="the greates company ever"
+          defaultValue="company "
           
 
         /> 
@@ -380,11 +378,12 @@ export default function Home() {
         /> 
         </label>
         .
-        <br/>
+    
         <label className={styles.contactLabel}>  I would like to know more about   
         <input  
           name="message"
           defaultValue="that service"
+          style={{textAlign: "center"}}
            
         /> 
          </label>

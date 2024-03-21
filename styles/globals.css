@@ -66,16 +66,17 @@ input,
 textarea,
 select {
   outline: none;
-  font-size: calc(var(--font-size) *1.5); 
+  font-size: calc(var(--font-size) *1.9); 
   font-family: var(--font-family);
   background-color: var(--Eerie-Black);
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  width: 350px;
+  width: 300px;
   color: var(--white-smoke);
   border: none;
   border-bottom: 2px solid var(--jonquil);
   opacity: 70%;
+  text-align: center;
 }
 
 
