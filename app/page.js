@@ -319,7 +319,7 @@ export default function Home() {
   </div>
 
   <div className={styles.portfolioIntem}>
-    <h3> Moskha</h3>
+    <h3> Coming Soon</h3>
     <img src="/banner.webp" width="1536" height="1024" alt="test"></img> 
     <p> <spam className={styles.detailText}> Landig Page:</spam> <br/>
     firma de arquitectura especializada es remodelaciones locales tal ver ga eto y lo otro </p>
